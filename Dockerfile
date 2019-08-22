@@ -23,7 +23,7 @@ RUN pip3 install virtualenv awscli
 RUN pip3 install pip
 RUN pip3 install wheel setuptools
 RUN pip3 install cython numpy GitPython
+RUN pip3 install waitress==1.1.0 psutil>=5.4.8 h5py>=2.8.0 gunicorn==19.9.0 Flask==1.0.2 Flask-WTF==0.14.2
 RUN pip3 install git+https://bitbucket.org/biociphers/majiq_stable.git#egg=majiq
-
 
 RUN mkdir -p /project /nl /mnt /share
