@@ -9,7 +9,7 @@ RUN apt-get dist-upgrade -y
 RUN apt-get -y install zip unzip gcc g++ make python3 python3-dev python3-pip zlib1g-dev zlibc libbz2-dev liblzma-dev
 
 #################
-## majiq 2.0 ##
+## majiq 11x ##
 #################
 RUN export LC_ALL=C
 RUN cd /tmp
