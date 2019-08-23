@@ -21,6 +21,6 @@ RUN pip3 install virtualenv awscli
 RUN pip3 install pip
 RUN pip3 install wheel setuptools
 RUN pip3 install cython pysam numpy GitPython scipy==1.1.0
-RUN pip3 install git+https://bitbucket.org/biociphers/majiq_stable.git@majiq_11x#egg=majiq_11x
+RUN pip3 install git+https://bitbucket.org/biociphers/majiq_stable.git@majiq_2.0#egg=majiq_2.0
 
 RUN mkdir -p /project /nl /mnt /share
